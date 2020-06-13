@@ -1,0 +1,170 @@
+Shooping Cart Assignment:
+
+This assignement is small demo of shoping website. You have to write only business logic in java or your preffered language.
+
+Steps:
+1. When program runs there will be a message : "WELCOME TO APNISHOP.COM..."
+-Each letter will get print on console after delay of every 250 milli sec. Like first print W (delay 250 milli sec) then E (delay 250 milli sec) L and son on.
+2.Show this message on screen:
+-first line : "To continue shopping press any digit 1 to 9"
+-second line : "To discard_shopping/payment press 0."
+
+3.If user press number between 1-9 then show this :
+
+Please select your items by pressing corresponding letter....
+For Mobile press: A
+For Tab press: B
+For Laptop press: C
+For Headphone press: D
+For Sound_System press: E
+For Keyboard press: F
+For Mouse press: G
+For Pendrive press: H
+For Led_Screen press: I
+For Ups press: J
+For Payment/Exit 0.
+
+4. If user presses 0, and no item is selected, then message will be:
+    Product selected by you: 0
+    Thanks for visiting APNISHOP.COM(program will exit)
+
+5. Else if user press any character corresponding to a product then show product details. Suppose user press A.Product details will be:
+
+Product details:
+price: 10000
+ram: 4gb
+internal memory: 8gb
+waranty: 2 years
+company: Samsung
+accessories: charger,headphone,8gb_memory_card
+
+Do you want to add this item in cart.
+If yes then press Y else press N
+
+6.If user presses N ,then program should not exit, show this message:
+
+To continue shopping press any digit 1 to 9.
+To discard_shopping/payment press 0.
+
+7.If user press Y, then show this message:
+
+Total number of product selected: 1
+
+
+To continue shopping press any digit 1 to 9.
+To discard_shopping/payment press 0.
+
+8.If user press any number 1-9, then again show product options(step 3).
+
+9.Else if user press 0, then show this message:
+
+Product selected by you:
+Mobile
+Do you want to remove any item from cart:
+If yes then press: Y, again show product product options(step 3).
+
+10. Else show this message:
+
+Please select your mode of payment:
+Press 1 for: Credit Card.
+Press 2 for: Debit Card.
+
+11.If user presses 1, show message
+
+Please enter your pin number:
+101102(pin for credit card)
+
+12. After entering correct pin, show this message:
+
+Processing...(delay for 2 sec)
+you choose Credit Card, so you have charged 5% cess
+your bill: 10500
+Thanks for choosing apni_shop.com...
+
+13.Else if user press 2:
+
+Please enter your pin number:
+101103(pin for debit card)
+
+Processing...
+you choose debit Card, so you have got 5% discount.
+your bill: 9500
+Thanks for choosing apni_shop.com...
+(Program will exit)
+
+14.If user enters wrong pin, then show this message:
+
+Wrong pin number!
+Please enter your pin number:  (program should not exit, it should ask pin again)
+
+
+15.After 3 wrong attempts , you can exit payment. And Show message
+
+You use all your attempts, session ends. Please try after some time. (Now program can exit.)
+
+
+
+Product details to be use in assignment:
+
+Mobile:
+	price=10000;
+	ram="4gb";
+	internal_memory="8gb";
+	waranty="2 years";
+	company="Samsung";
+	accessories="charger,headphone,8gb_memory_card";
+
+Tab:
+	price=15000;
+	ram="4gb";
+	internal_memory="32gb";
+	waranty="2 years";
+	company="Reliance";
+	accessories="charger,headphone,16gb_memory_card";
+
+Laptop:
+	price=30000;
+	ram="8gb";
+	hard_disk="1 tera_byte";
+	waranty="2 years";
+        company="Lenovo";
+	accessories="charger,headphone,32gb_memory_card,bag";
+
+Headphione:
+	price=400;
+	waranty="6 month";
+	company="Samsung";
+
+Sound_System:
+	price=3000;
+	waranty="2 years";
+	company="creative";
+	speakers="4.1";
+
+Keyboard:
+
+	price=500;
+	waranty="1 years";
+	company="Dell";
+
+Mouse:
+	price=200;
+	waranty="1 years";
+	company="Iball";
+
+Pendrive:
+
+	price=300;
+	waranty="no waranty";
+	size="16gb";
+
+LED:
+	price=15000;
+	waranty="2 years";
+	company="LG";
+	accessories="headphone,16gb_memory_card";
+
+UPS:
+	price=10000;
+	waranty="2 years";
+	company="Luminous";
